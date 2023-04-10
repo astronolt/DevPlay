@@ -60,3 +60,15 @@ int main() {
 ```
 
 In this example, we use the `open()` function to get a file descriptor for the file "file.txt". We then use the `write()` function to write the string "Hello, world!" to the file, and finally close the file descriptor using the `close()` function.
+
+
+
+
+
+# Standard file descriptors
+
+In Unix-like operating systems, there are three standard file descriptors:
+
+* Standard input (stdin): This is a file descriptor that represents the input stream to a program. It is usually connected to the keyboard or another input device. Its POSIX name is STDIN_FILENO (defined in <unistd.h>).
+* Standard output (stdout): This is a file descriptor that represents the output stream from a program. It is usually connected to the console or another output device. Its POSIX name is STDOUT_FILENO (defined in <unistd.h>).
+* Standard error (stderr): This is a file descriptor that represents the error output stream from a program. It is usually connected to the console or another output device. Its POSIX name is STDERR_FILENO (defined in <unistd.h>).
