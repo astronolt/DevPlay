@@ -35,7 +35,9 @@ int main() {
 
 To compile this code using GCC and some options, you can run the following command in a terminal:
 
+```
 gcc hello.c -o hello -Wall -g
+```
 
 
 This tells GCC to compile the hello.c file into an executable program named hello, with warning options enabled (-Wall) and debug information generated (-g). After compilation, you can run the ./hello (on Unix-like systems) or hello.exe (on Windows) executable to see the "Hello, world!" message printed to the screen.
