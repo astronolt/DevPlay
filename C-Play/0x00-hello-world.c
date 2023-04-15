@@ -7,6 +7,7 @@ int main(void)
 	char letter = 'c';
 
 	printf("Hello world\n");
-	printf("This is a number(%d) and a character(%c) and a decimal(%f) and a rounded-up by 2 digits decimal(%.2f)\n", num, letter, decimal, decimal);
+	printf("This is a number(%d) and a character(%c)\n", num, letter);
+	printf("This is a decimal(%f) and a rounded-up by 2 digits decimal(%.2f)\n", decimalOne, decimalOne);
 	return (0);
 }
